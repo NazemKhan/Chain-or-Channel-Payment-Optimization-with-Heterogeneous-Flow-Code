@@ -1,3 +1,3 @@
-# PaymentChannels
+# Payment Channels
 
 
