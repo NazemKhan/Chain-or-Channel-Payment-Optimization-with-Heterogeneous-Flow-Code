@@ -30,7 +30,7 @@ There are three steps in getting the outputs from the inputs. First you need to 
 ### Step 1 Computing $T(0 | l_A, l_B)$
 
 
-
+Actually use Jupyter notebook to write about general procedure. Then files for figs 1-3, figs 4-6 and figs 7-10. In particular, for the more complicated ones just draw table of results (refer to desmos) and then give the code for the pictures.
 
 
 
