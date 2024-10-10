@@ -1,8 +1,6 @@
 # Chain or Channel? Payment Optimization with Heterogeneous Flow
 
-This repository contains the code used to generate the figures and examples for the paper "Chain or Channel? Payment Optimization with Heterogeneous Flow" by Paolo Guasoni and Nazem Khan (2024). To fully understand it, you should be familiar with the notation and jargon in the aforementioned paper. 
-
-## Requirements
+This repository contains the code used to generate the figures and examples for the paper "Chain or Channel? Payment Optimization with Heterogeneous Flow" by Paolo Guasoni and Nazem Khan (2024). 
 
 To run the code, you need the following Python libraries:
 
@@ -10,24 +8,9 @@ To run the code, you need the following Python libraries:
 - scipy
 - matplotlib
 
-## General Example
+And to fully understand the code, you should be familiar with the notation and jargon in our paper.
 
-### Inputs
-
-- Cost of an on-chain transaction $C > 0$
-- Channel reset cost $D > 0$
-- Discount factor $\alpha \in (0,1)$ 
-- Payment size probability density function $g:\mathbb{R} \to \mathbb{R}_+$
-- Fine-tuning parameter $n \in \mathbb{N}$
-
-### Outputs 
-
-- Optimal channel deposits $l_A^{\*}$ and $l_B^{\*}$
-- Optimal policy $f^{\*}$
-
-There are three steps in getting the outputs from the inputs. First you need to be able to compute the expected cost in transactions $T(0  |  l_A, l_B)$ for any fixed pair of channel deposits $(l_A, l_B) \in R_n^2$. You then minimize the function $R_n^2 \ni (l_A, l_B) \mapsto l_A + l_B + T(0  |  l_A, l_B)$ in order to find optimal channel deposits $l_A^{\*}$ and $l_B^{\*}$. Finally, compute the optimal policy $f^{\*}$ from  $T(\cdot  |  l_A^{\*}, l_B^{\*})$.
-
-### Step 1 Computing $T(0 | l_A, l_B)$
+Start by reading the file GeneralMethod.ipynb as this describes the method for computing the optimal channel deposits and the optimal policy for a general transaction stream $(\tau_k,\Delta_k)_{k \geq 1}$. This will make it easier to follow the rest of the code.
 
 
 Actually use Jupyter notebook to write about general procedure. Then files for figs 1-3, figs 4-6 and figs 7-10. In particular, for the more complicated ones just draw table of results (refer to desmos) and then give the code for the pictures.
