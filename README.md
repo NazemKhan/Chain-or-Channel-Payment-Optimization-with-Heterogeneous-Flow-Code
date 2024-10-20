@@ -2,6 +2,9 @@
 
 This repository contains the code used to generate the figures and examples for the paper "Chain or Channel? Payment Optimization with Heterogeneous Flow" by Paolo Guasoni and Nazem Khan (2024). 
 
-Start by reading the file GeneralMethod.ipynb. This describes our method for computing the optimal channel deposits and the optimal policy for a general transaction stream.
+## Figures
+
+Start by reading the file [General Method](GeneralMethod.ipynb) GeneralMethod.ipynb. This describes our method for computing the optimal channel deposits and the optimal policy for a general transaction stream with continuous payments. Moreover, the functions in that file are used throughout the files in the figures folder.
 
 
+## Examples
