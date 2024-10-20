@@ -4,7 +4,7 @@ This repository contains the code used to generate the figures and examples for 
 
 ## Figures
 
-Start by reading the file [General Method](GeneralMethod.ipynb) GeneralMethod.ipynb. This describes our method for computing the optimal channel deposits and the optimal policy for a general transaction stream with continuous payments. Moreover, the functions in that file are used throughout the files in the figures folder.
+Start by reading [General Method](GeneralMethod.ipynb). This describes our method for computing the optimal channel deposits and the optimal policy for a general transaction stream with continuous payments. Moreover, the functions in that file are used throughout the files in [figures](figures).
 
 
 ## Examples
