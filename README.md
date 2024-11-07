@@ -7,3 +7,5 @@ This repository contains the code used to generate the figures and examples for 
 Start by reading [General Method](GeneralMethod.ipynb). This notebook describes our approach for computing the optimal channel deposits and determining the optimal policy for a general transaction stream with continuously distributed payments. It is a prerequisite for running and understanding the code in the notebooks located in the [figures](figures) directory.  Each notebook in this directory provides the code for generating the corresponding figure in our paper.
 
 ## Examples
+
+The notebooks in this directory are self contained. That being said, it is recommended that you understand the [General Method](GeneralMethod.ipynb). Each notebook in this directory provides the code for generating the corresponding example in our paper.
