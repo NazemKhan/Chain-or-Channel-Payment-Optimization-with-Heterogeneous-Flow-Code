@@ -8,4 +8,4 @@ Start by reading [General Method](GeneralMethod.ipynb). This notebook describes 
 
 ## Examples
 
-The notebooks in this directory are self contained. That being said, it is recommended that you understand the [General Method](GeneralMethod.ipynb). Each notebook in this directory provides the code for generating the corresponding example in our paper.
+The notebooks in this directory adapt the [General Method](GeneralMethod.ipynb). Each one provides the code for generating the corresponding example in our paper.
