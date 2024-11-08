@@ -8,4 +8,4 @@ Start by reading [General Method](GeneralMethod.ipynb). This notebook describes 
 
 ## Examples
 
-The notebooks in this directory adapt the [General Method](GeneralMethod.ipynb). Each one provides the code for generating the corresponding example in our paper.
+The notebooks in the [examples](examples) directory adapt the [General Method](GeneralMethod.ipynb). Each one provides the code for generating the corresponding example in our paper.
